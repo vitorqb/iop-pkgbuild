@@ -1,0 +1,16 @@
+* Improved OP PkgBuild
+
+Since https://github.com/vitorqb/iop/ is private, before =makepkg=, you need to:
+1. Download the appropriate release from the source in ur browser
+   https://github.com/vitorqb/iop/archive/refs/tags/x.y.z.tar.gz
+2. Copy the file here (named iop-$version.tar.gz)
+3. Make sure go knows how to fetch packages:
+   : GIT_SSH="ssh-personal" GOPRIVATE="github.com/vitorqb/*" makepkg -si
+
+Note we assume something like this is in ur PATH:
+
+file:ssh-personal
+#+begin_src sh
+#!/bin/bash
+ssh -i $PERSONAL_KEY "$@"
+#+end_src
