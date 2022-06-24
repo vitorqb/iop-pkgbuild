@@ -1,6 +1,6 @@
 # Maintainer: Vitor Barbosa <vitorqb@gmail.com>
 pkgname=iop
-pkgver=0.1.3
+pkgver=0.2.0
 pkgrel=1
 epoch=
 pkgdesc="Improved OP"
@@ -21,7 +21,7 @@ install=
 changelog=
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 noextract=()
-md5sums=('e508aca484638e9e00723647e2fe116e')
+md5sums=('2342a4666eb008e9456aa9e1826db5cd')
 validpgpkeys=()
 
 _gopkg="${url#https://}"
