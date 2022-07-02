@@ -1,13 +1,13 @@
 pkgbase = iop
 	pkgdesc = Improved OP
-	pkgver = 0.2.0
+	pkgver = 0.2.2
 	pkgrel = 1
 	url = https://github.com/vitorqb/iop
 	arch = any
 	license = GPL
 	makedepends = go
 	optdepends = dmenu
-	source = iop-0.2.0.tar.gz::https://github.com/vitorqb/iop/archive/refs/tags/0.2.0.tar.gz
-	md5sums = 2342a4666eb008e9456aa9e1826db5cd
+	source = iop-0.2.2.tar.gz::https://github.com/vitorqb/iop/archive/refs/tags/0.2.2.tar.gz
+	md5sums = b89a5a6a2c8eb9a65d9ddbbc0c03086d
 
 pkgname = iop
