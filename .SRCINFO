@@ -1,13 +1,13 @@
-pkgbase = iop
-	pkgdesc = Improved OP
-	pkgver = 0.2.2
+pkgbase = pmwrap
+	pkgdesc = Password Manager Wrapper
+	pkgver = 0.2.3
 	pkgrel = 1
-	url = https://github.com/vitorqb/iop
+	url = https://github.com/vitorqb/pmwrap
 	arch = any
 	license = GPL
 	makedepends = go
 	optdepends = dmenu
-	source = iop-0.2.2.tar.gz::https://github.com/vitorqb/iop/archive/refs/tags/0.2.2.tar.gz
-	md5sums = b89a5a6a2c8eb9a65d9ddbbc0c03086d
+	source = pmwrap-0.2.3.tar.gz::https://github.com/vitorqb/pmwrap/archive/refs/tags/0.2.3.tar.gz
+	md5sums = 11fbbe8277dc20c26425aea5c9f9d0cc
 
-pkgname = iop
+pkgname = pmwrap

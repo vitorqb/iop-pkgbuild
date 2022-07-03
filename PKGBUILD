@@ -1,11 +1,11 @@
 # Maintainer: Vitor Barbosa <vitorqb@gmail.com>
-pkgname=iop
-pkgver=0.2.2
+pkgname=pmwrap
+pkgver=0.2.3
 pkgrel=1
 epoch=
-pkgdesc="Improved OP"
+pkgdesc="Password Manager Wrapper"
 arch=(any)
-url="https://github.com/vitorqb/iop"
+url="https://github.com/vitorqb/pmwrap"
 license=('GPL')
 groups=()
 depends=()
@@ -21,7 +21,7 @@ install=
 changelog=
 source=("$pkgname-$pkgver.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 noextract=()
-md5sums=('b89a5a6a2c8eb9a65d9ddbbc0c03086d')
+md5sums=('11fbbe8277dc20c26425aea5c9f9d0cc')
 validpgpkeys=()
 
 _gopkg="${url#https://}"
@@ -45,5 +45,5 @@ build() {
 }
 
 package() {
-  install -Dm755 build/bin/iop -t "$pkgdir/usr/bin"
+  install -Dm755 build/bin/pmwrap -t "$pkgdir/usr/bin"
 }

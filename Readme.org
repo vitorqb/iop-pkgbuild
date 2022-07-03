@@ -1,7 +1,7 @@
 * Improved OP PkgBuild
 
 #+begin_example
-rm -rf ~/.cache/packages/iop && mkdir -p ~/.cache/packages
-git clone 'https://github.com/vitorqb/iop-pkgbuild.git' ~/.cache/packages/iop
-( cd ~/.cache/packages/iop && makepkg -si )
+rm -rf ~/.cache/packages/pmwrap && mkdir -p ~/.cache/packages
+git clone 'https://github.com/vitorqb/pmwrap-pkgbuild.git' ~/.cache/packages/pmwrap
+( cd ~/.cache/packages/pmwrap && makepkg -si )
 #+end_example
